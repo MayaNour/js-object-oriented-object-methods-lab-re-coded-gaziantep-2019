@@ -3,5 +3,19 @@ function BoardMember(name, homeState, training){
   this.homeState = homeState;
   this.training = training;
   
-  this.veto = function 
+  this.veto = function veto(){
+    console.log("No, I must disagree");
+  }
+  
+  this.approve = function approve(){
+    console.log("You can do that!");
+  }
+  
+  this.doCharity = function doCharity(){
+    console.log("I like to help people.");
+  }
+  
+  this.veto = function veto(){
+    console.log("No, I must disagree");
+  }
 }
