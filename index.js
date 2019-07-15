@@ -20,6 +20,6 @@ function BoardMember(name, homeState, training){
   }
   
   this.sayHi = function sayHi(){
-    console.log("Hi, my name is ");
+    console.log("Hi, my name is ${this.name}. I am from ${this.homeState}, ");
   }
 }
