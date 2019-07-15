@@ -12,11 +12,11 @@ function BoardMember(name, homeState, training){
   }
   
   this.doCharity = function doCharity(){
-    console.log("I like to help people.");
+    return "I like to help people.";
   }
   
   this.releasePressStatement = function releasePressStatement(){
-    console.log("You will see great things from Scuber.");
+    return "You will see great things from Scuber.";
   }
   
   this.sayHi = function sayHi(){
