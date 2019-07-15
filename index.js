@@ -15,7 +15,11 @@ function BoardMember(name, homeState, training){
     console.log("I like to help people.");
   }
   
-  this.veto = function veto(){
-    console.log("No, I must disagree");
+  this.releasePressStatement = function releasePressStatement(){
+    console.log("You will see great things from Scuber.");
+  }
+  
+  this.sayHi = function sayHi(){
+    console.log("Hi");
   }
 }
