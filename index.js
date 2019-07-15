@@ -20,6 +20,6 @@ function BoardMember(name, homeState, training){
   }
   
   this.sayHi = function sayHi(){
-    console.log("Hi, ");
+    console.log("Hi, my name is ");
   }
 }
